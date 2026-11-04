@@ -1,20 +1,13 @@
 {
   "version": 2,
-  "builds": [
+  "rewrites": [
     {
-      "src": "api/bomb.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
+      "source": "/",
+      "destination": "/api/bomb"
+    },
     {
-      "src": "/(.*)",
-      "dest": "api/bomb.js"
+      "source": "/api/bomb",
+      "destination": "/api/bomb"
     }
-  ],
-  "functions": {
-    "api/bomb.js": {
-      "maxDuration": 10
-    }
-  }
+  ]
 }
