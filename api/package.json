@@ -1,0 +1,18 @@
+{
+  "name": "kalua-api-bomber",
+  "version": "3.0.0",
+  "description": "High-Performance 3D Professional SMS Bomber API — Built by KaluaApiAdmin (@KaluaApiStore)",
+  "main": "api/bomb.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "author": "KaluaApiAdmin",
+  "license": "MIT"
+}
